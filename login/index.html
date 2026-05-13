@@ -84,11 +84,33 @@
         </div>
     </div>
 
-    <script src="../../shared/js/form-utils.js"></script>
-    <script src="script.js"></script>
+<script src="../../shared/js/form-utils.js"></script>
+<script src="script.js"></script>
+<script src="js/login.js"></script>
+  
+    <script>
+document.getElementById("loginForm").addEventListener("submit", function (e) {
+    e.preventDefault();
 
-<div id="alertBox" class="alert" style="display:none;"></div>
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
 
-    <script src="js/login.js"></script>
+    // contoh validasi sederhana
+    if (username !== "" && password !== "") {
+
+        // tampilkan success message
+        document.getElementById("successMessage").style.display = "block";
+
+        // redirect ke landing page
+        setTimeout(function () {
+            window.location.href = "index.html"; 
+            // ganti ke landing page kamu (misalnya home.html)
+        }, 1500);
+
+    } else {
+        alert("Username dan password wajib diisi!");
+    }
+});
+    </script>
 </body>
 </html>
