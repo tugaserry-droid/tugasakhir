@@ -2,7 +2,7 @@
 class ModernBrutalistLoginForm {
     constructor() {
         this.form = document.getElementById('loginForm');
-        this.emailInput = document.getElementById('email');
+        this.usernameInput = document.getElementById('username');
         this.passwordInput = document.getElementById('password');
         this.passwordToggle = document.getElementById('passwordToggle');
         this.submitButton = this.form.querySelector('.login-btn');
