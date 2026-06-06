@@ -325,14 +325,16 @@ body {
 
         /* Info display */
         .info {
-            position: absolute;
-            top: 120px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: white;
-            text-align: center;
-            z-index: 200;
-        }
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    z-index: 500;
+    width: 100%;
+    padding: 0 20px;
+		}
 
         .info h2 {
             font-size: 32px;
