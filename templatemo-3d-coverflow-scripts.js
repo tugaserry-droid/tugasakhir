@@ -44,32 +44,32 @@ https://templatemo.com/tm-595-3d-coverflow
         // Image data with titles and descriptions
         const imageData = [
             {
-                title: "Si Paling Epep",
-                description: "Tegar Ayman"
+                title: "Si Kalem",
+                description: "Tegar Ayman Prihatno"
             },
             {
-                title: "Forest Path",
-                description: "A winding trail through ancient woodland"
+                title: "Diam Adalah Emas",
+                description: "Zain Syarifuddin Nugraha"
             },
             {
-                title: "Lake Reflection",
-                description: "Serene waters mirroring the surrounding landscape"
+                title: "Mas Mas Penjaga Gerbang",
+                description: "Athaullah Lion Hadi Nandadiho"
             },
             {
-                title: "Ocean Sunset",
-                description: "Golden hour over endless ocean waves"
+                title: "Pria Pecinta Basket",
+                description: "Raditya Lingga Jagatnata"
             },
             {
-                title: "Desert Dunes",
-                description: "Rolling sand dunes under vast blue skies"
+                title: "Sipaling COOLLL",
+                description: "Satria Kalingga Hadi Rustanto"
             },
             {
-                title: "Starry Night",
-                description: "Countless stars illuminating the dark sky"
+                title: "Pria Penyabar",
+                description: "Gyrel Aryo Pradipta"
             },
             {
-                title: "Waterfall",
-                description: "Cascading water through lush green forest"
+                title: "Sai Kita",
+                description: "Razrinabigh Arufa Fakhri"
             }
         ];
 
