@@ -1284,21 +1284,3 @@ body {
                 border-radius: 25px;
             }
         }
-html,
-body,
-.section,
-.coverflow-wrapper,
-.coverflow-container {
-    width: 100%;
-    max-width: 100vw;
-    overflow-x: hidden;
-}
-
-.coverflow {
-    width: 100vw;
-}
-
-#home {
-    width: 100vw;
-    overflow: hidden;
-}
