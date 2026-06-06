@@ -10,14 +10,17 @@ https://templatemo.com/tm-595-3d-coverflow
 /* CSS Document */
 
 * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
         html {
             scroll-behavior: smooth;
